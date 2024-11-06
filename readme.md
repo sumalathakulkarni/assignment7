@@ -28,9 +28,12 @@ docker build -t my-qr-app .
 docker run -d --name qr-generator my-qr-app
 ```
 
-## Generate QR Code
+## Command for generating the QR Code
 
 ```sh
-docker run -v .:/app qrcode --url https://github.com/sumalathakulkarni/assignment7
+docker run -v .:/app qrcode --url https://github.com/sumalathakulkarni/
 ```
+![image](https://github.com/user-attachments/assets/0177ca19-6dbf-461f-a3ad-7db2839e2e19)
 
+## Generated QR Code
+![image](https://github.com/user-attachments/assets/df2c5b54-781f-406d-b6a3-42c3f6b38952)
